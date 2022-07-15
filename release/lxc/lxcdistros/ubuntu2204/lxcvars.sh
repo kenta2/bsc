@@ -1,0 +1,2 @@
+lxcdistribution=ubuntu
+lxcrelease=jammy

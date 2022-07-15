@@ -1,0 +1,2 @@
+lxcdistribution=debian
+lxcrelease=buster

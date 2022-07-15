@@ -1,0 +1,13 @@
+# usage:
+# ( . setvars.sh ; bash 00host.sh )
+#export container=
+#export versionprefix=2022.07
+#export versionsuffix=
+#export gitcommit=
+#export lxccreateflags="-B btrfs"
+#export destroyoldcontainer=1
+#export ostarget=ubuntu1804
+#export setuponly=1
+#export localsources=~/lxclocalsources
+#export logdir=~/bscrelease/output
+#export zipdir=~/bscrelease/output
