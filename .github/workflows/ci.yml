@@ -80,6 +80,7 @@ jobs:
     strategy:
       matrix:
         ghc:
+          # `ghcup list` to see what is available
           - version: 9.8.4
             hls: 2.13.0.0
           - version: 9.10.3
@@ -87,6 +88,28 @@ jobs:
           - version: 9.12.2
             hls: 2.13.0.0
           - version: 9.14.1
+            hls:
+          # older
+          - version: 7.10.3
+            hls:
+          - version: 8.0.2
+            hls:
+          - version: 8.2.2
+            hls:
+          - version: 8.4.4
+            hls:
+          - version: 8.6.5
+            hls:
+          # ubuntu 22.04
+          - version: 8.8.4
+            hls:
+          - version: 8.10.7
+            hls:
+          - version: 9.0.2
+            hls:
+          - version: 9.2.8
+            hls:
+          - version: 9.4.8
             hls:
       fail-fast: false
     name: "Build/Test: GHC Ubuntu"
