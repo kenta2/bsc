@@ -40,6 +40,9 @@ jobs:
         with:
           ghc: ${{ inputs.ghc_version }}
           cabal: recommended
+          config: |
+            meta-cache: 0
+            verbose: 2
       # Until BSC uses cabal to build, pre-install these packages
       - name: Install Haskell dependencies
         shell: bash
